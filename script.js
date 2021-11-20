@@ -70,6 +70,6 @@ $(window).scroll(function () {
   var scrolledY = $(window).scrollTop();
   $(".form-section ").css(
     "background-position",
-    "center " + (scrolledY * 0.75 - 5000) + "px"
+    "center " + (scrolledY * 0.75) + "px"
   );
 });
